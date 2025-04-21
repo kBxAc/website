@@ -472,4 +472,63 @@
       width: 80%;
     }
   }
+  
+  /* Additional mobile optimizations */
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.8rem;
+    }
+    
+    h3 {
+      font-size: 1.5rem;
+    }
+    
+    .hierarchy-title {
+      font-size: 1.2rem;
+    }
+    
+    .terminal-window {
+      margin: 0 1rem 2rem;
+    }
+    
+    .terminal-content {
+      padding: 15px 10px;
+    }
+    
+    .terminal-description {
+      font-size: 0.9rem;
+    }
+    
+    .team-section {
+      padding: 2rem 0.5rem;
+    }
+    
+    .hierarchy-section {
+      padding: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    
+    .hierarchy-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .member-card {
+      max-width: 100%;
+      padding: 1rem;
+    }
+    
+    .avatar {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .stat-number {
+      font-size: 2rem;
+    }
+    
+    .stat-label {
+      font-size: 0.8rem;
+    }
+  }
 </style> 
