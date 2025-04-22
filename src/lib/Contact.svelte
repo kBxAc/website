@@ -335,6 +335,15 @@
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
     transition: all 0.3s;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+    box-sizing: border-box;
+  }
+  
+  input {
+    min-height: auto;
+    height: 45px;
   }
   
   input:focus, textarea:focus {
@@ -342,6 +351,11 @@
     border-color: #4287f5;
     box-shadow: 0 0 0 2px rgba(66, 135, 245, 0.2);
     background: rgba(15, 15, 15, 0.9);
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
   }
   
   .submit-button {

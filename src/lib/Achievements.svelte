@@ -89,7 +89,6 @@
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: {skill.level}%">
-                  <div class="pulse-effect"></div>
                 </div>
               </div>
             </div>
@@ -421,16 +420,6 @@
     to {
       transform: scaleX(1);
     }
-  }
-  
-  .pulse-effect {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 5px;
-    background: rgba(255, 255, 255, 0.8);
-    animation: pulse 1.5s infinite;
   }
   
   @keyframes pulse {
