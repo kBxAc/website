@@ -1,4 +1,6 @@
 <script>
+  import adithg17Image from '../assets/adithg17.jpg';
+  
   // Team structure organized hierarchically
   const leadership = [
     { name: 'k3rn3lbr3ach3r', role: 'Captain', specialization: 'Sanity Check' },
@@ -6,7 +8,8 @@
   ];
   
   const coreMember = [
-    { name: 'adithG17', role: 'Core Member', specialization: 'OSINT' }
+    { name: 'adithG17', role: 'Core Member', specialization: 'OSINT', image: adithg17Image },
+    { name: 'Cr4zy_dr34m', role: 'Core Member', specialization: 'Instagram' }
   ];
   
   const newMembers = [
@@ -88,9 +91,13 @@
         {#each coreMember as member, i}
           <div class="member-card core-card">
             <div class="avatar">
-              <div class="avatar-placeholder">
-                <div class="binary-overlay"></div>
-              </div>
+              {#if member.image}
+                <img src={member.image} alt={member.name} class="member-image" />
+              {:else}
+                <div class="avatar-placeholder">
+                  <div class="binary-overlay"></div>
+                </div>
+              {/if}
             </div>
             <div class="member-data">
               <h4>{member.name}</h4>
@@ -530,5 +537,18 @@
     .stat-label {
       font-size: 0.8rem;
     }
+  }
+  
+  .member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #4287f5;
+    transition: transform 0.3s ease;
+  }
+  
+  .member-card:hover .member-image {
+    transform: scale(1.05);
   }
 </style> 
