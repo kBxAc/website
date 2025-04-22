@@ -9,7 +9,6 @@
   
   const coreMember = [
     { name: 'adithG17', role: 'Core Member', specialization: 'OSINT', image: adithg17Image },
-    { name: 'Cr4zy_dr34m', role: 'Core Member', specialization: 'Instagram' }
   ];
   
   const newMembers = [
