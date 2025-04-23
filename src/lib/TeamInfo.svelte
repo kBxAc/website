@@ -1,22 +1,29 @@
 <script>
   import adithg17Image from '../assets/adithg17.jpg';
+  import ayushchImage from '../assets/ayushch.png';
+  import br3ak3rImage from '../assets/br3ak3r.jpg';
+  import cr4zyDr34mImage from '../assets/cr4zy_dr34m.png';
+  import k3rn3lbr3ach3rImage from '../assets/k3rn3lbr3ach3r.jpg';
+  import kaiikImage from '../assets/kaiik.jpeg';
+  import spxmareerhsImage from '../assets/spxmareerhs.jpeg';
+  import ilenaakImage from '../assets/ilenaak.png';
   
   // Team structure organized hierarchically
   const leadership = [
-    { name: 'k3rn3lbr3ach3r', role: 'Captain', specialization: 'Sanity Check' },
-    { name: 'ayushch', role: 'Captain', specialization: 'Reverse Engineering' }
+    { name: 'k3rn3lbr3ach3r', role: 'Captain', specialization: 'Sanity Check', image: k3rn3lbr3ach3rImage },
+    { name: 'ayushch', role: 'Captain', specialization: 'Reverse Engineering', image: ayushchImage }
   ];
   
   const coreMember = [
-    { name: 'adithG17', role: 'Core Member', specialization: 'OSINT', image: adithg17Image },
+    { name: 'adithG17', role: 'Core Member', specialization: 'OSINT', image: adithg17Image }
   ];
   
   const newMembers = [
-    { name: 'kaii-k', role: 'NeoPhyte', specialization: 'Inactivity' },
-    { name: 'BR3AK3R', role: 'NeoPhyte', specialization: 'GUI Lover' },
-    { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists' },
-    { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon' },
-    { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager' }
+    { name: 'kaii-k', role: 'NeoPhyte', specialization: 'Inactivity', image: kaiikImage },
+    { name: 'BR3AK3R', role: 'NeoPhyte', specialization: 'GUI Lover', image: br3ak3rImage },
+    { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists', image: spxmareerhsImage },
+    { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
+    { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage }
   ];
 </script>
 
@@ -68,9 +75,13 @@
         {#each leadership as member, i}
           <div class="member-card leadership-card">
             <div class="avatar">
-              <div class="avatar-placeholder">
-                <div class="binary-overlay"></div>
-              </div>
+              {#if member.image}
+                <img src={member.image} alt={member.name} class="member-image" />
+              {:else}
+                <div class="avatar-placeholder">
+                  <div class="binary-overlay"></div>
+                </div>
+              {/if}
             </div>
             <div class="member-data">
               <h4>{member.name}</h4>
@@ -116,9 +127,13 @@
         {#each newMembers as member, i}
           <div class="member-card neophyte-card">
             <div class="avatar">
-              <div class="avatar-placeholder">
-                <div class="binary-overlay"></div>
-              </div>
+              {#if member.image}
+                <img src={member.image} alt={member.name} class="member-image" />
+              {:else}
+                <div class="avatar-placeholder">
+                  <div class="binary-overlay"></div>
+                </div>
+              {/if}
             </div>
             <div class="member-data">
               <h4>{member.name}</h4>
