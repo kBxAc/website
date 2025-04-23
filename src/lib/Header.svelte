@@ -1,5 +1,5 @@
 <script>
-  import kBxAcLogo from '../assets/kBxAc.jpeg';
+  import kBxAcLogo from '../assets/kBxAc.jpg';
   
   // Navigation links
   const navLinks = [
