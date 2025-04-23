@@ -1,4 +1,6 @@
 <script>
+  import kBxAcLogo from '../assets/kBxAc.jpeg';
+  
   // Navigation links
   const navLinks = [
     { text: 'Home', href: '#' },
@@ -20,9 +22,13 @@
 <header>
   <div class="terminal-line"></div>
   <div class="header-container">
-    <div class="logo" on:mouseenter={startGlitch}>
-      <h1 class:glitch={isGlitching} data-text="kBxAc">kBxAc<span class="terminal-cursor">_</span></h1>
-      <p class="tagline">$ <span>We Break The Broken</span></p>
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div class="logo-container" on:mouseenter={startGlitch}>
+      <img src={kBxAcLogo} alt="kBxAc Logo" class="logo-image" />
+      <div class="logo">
+        <h1 class:glitch={isGlitching} data-text="kBxAc">kBxAc<span class="terminal-cursor">_</span></h1>
+        <p class="tagline">$ <span>We Break The Broken</span></p>
+      </div>
     </div>
     
     <nav>
@@ -63,6 +69,27 @@
     padding: 0 1rem;
   }
   
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #4287f5;
+    object-fit: cover;
+    filter: drop-shadow(0 0 5px rgba(66, 135, 245, 0.5));
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-container:hover .logo-image {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(66, 135, 245, 0.8));
+  }
+  
   .logo h1 {
     margin: 0;
     font-size: 2.8rem;
@@ -89,14 +116,6 @@
     font-size: 0.9rem;
     color: #aaa;
     font-family: 'Space Mono', monospace;
-  }
-  
-  .typed-text {
-    border-right: 1px solid transparent;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 3.5s steps(20, end), blink-caret .75s step-end infinite;
-    color: #4287f5;
   }
   
   @keyframes typing {
@@ -181,6 +200,17 @@
     
     .logo h1 {
       font-size: 2.2rem;
+    }
+    
+    .logo-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .logo-image {
+      width: 40px;
+      height: 40px;
     }
   }
 </style> 
