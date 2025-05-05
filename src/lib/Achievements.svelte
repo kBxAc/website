@@ -16,9 +16,14 @@
       description: 'Secured 18th place among 1000+ teams in the Binary Clash 360 CTF organised by IIT Madras.' 
     },
     { 
-      title: 'Pentathon 2025', 
+      title: 'Pentathon 2025 Qualifiers', 
       position: '21st Place', 
       description: 'Achieved 21st place in the Pentathon 2025 CTF organised by NCIIPC AICTE and Ministry of Education, Govt. of India.' 
+    },
+    {
+      title: 'Pentathon 2025 Finals', 
+      position: '13st Place', 
+      description: 'Ranked 13th in the Grand Finale of Pentathon 2025, a national-level competition by NCIIPC, AICTE, and the Ministry of Education, Govt. of India.' 
     }
   ];
   
