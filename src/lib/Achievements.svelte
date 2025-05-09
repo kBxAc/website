@@ -11,9 +11,9 @@
       description: 'Reached the top 50 in the ATC Winter Vibes Community CTF, demonstrating exceptional skills in various domains.' 
     },
     { 
-      title: 'Binary Clash 360', 
+      title: 'BinaryClash360 Qualifiers', 
       position: '18th Place', 
-      description: 'Secured 18th place among 1000+ teams in the Binary Clash 360 CTF organised by IIT Madras.' 
+      description: 'Secured 18th place among 1000+ teams in the BinaryClash360 CTF organised by IIT Madras and IIITDM Kacheepuram.' 
     },
     { 
       title: 'Pentathon 2025 Qualifiers', 
@@ -24,6 +24,11 @@
       title: 'Pentathon 2025 Finals', 
       position: '13st Place', 
       description: 'Ranked 13th in the Grand Finale of Pentathon 2025, a national-level competition by NCIIPC, AICTE, and the Ministry of Education, Govt. of India.' 
+    },
+    {
+      title: 'BinaryClash360 Finals', 
+      position: '5th Place', 
+      description: 'Secured 5th place and won the cash prize of ₹15k in the BinaryClash360 CTF organised by IIT Madras and IIITDM Kacheepuram.' 
     }
   ];
   
