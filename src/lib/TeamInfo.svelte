@@ -24,7 +24,7 @@
     { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists', image: spxmareerhsImage },
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
     { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
-    { name: 'Akashr', role: 'NeoPhyte'}
+    { name: 'Akash.R', role: 'NeoPhyte', specialization: 'Chennai anna'}
   ];
 </script>
 

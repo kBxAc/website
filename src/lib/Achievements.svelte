@@ -28,7 +28,7 @@
     {
       title: 'BinaryClash360 Finals', 
       position: '5th Place', 
-      description: 'Secured 5th place and won the cash prize of ₹15k in the BinaryClash360 CTF organised by IIT Madras and IIITDM Kacheepuram.' 
+      description: 'Secured 5th place in the BinaryClash360 CTF organised by IIT Madras and IIITDM Kacheepuram.' 
     }
   ];
   
