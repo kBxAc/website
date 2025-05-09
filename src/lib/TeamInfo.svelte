@@ -23,7 +23,8 @@
     { name: 'BR3AK3R', role: 'NeoPhyte', specialization: 'GUI Lover', image: br3ak3rImage },
     { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists', image: spxmareerhsImage },
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
-    { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage }
+    { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
+    { name: 'Akashr', role: 'NeoPhyte'}
   ];
 </script>
 
