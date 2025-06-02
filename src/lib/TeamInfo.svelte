@@ -7,6 +7,7 @@
   import kaiikImage from '../assets/kaiik.jpeg';
   import spxmareerhsImage from '../assets/spxmareerhs.jpeg';
   import ilenaakImage from '../assets/ilenaak.png';
+  import deaddroid from '../assets/deaddroid.jpg';
   
   // Team structure organized hierarchically
   const leadership = [
@@ -24,7 +25,8 @@
     { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists', image: spxmareerhsImage },
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
     { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
-    { name: 'Akash.R', role: 'NeoPhyte', specialization: 'Chennai anna'}
+    { name: 'Akash.R', role: 'NeoPhyte', specialization: 'Chennai anna'},
+    { name: '𝗗𝗲𝗮𝗱-𝗗𝗿𝗼𝗶𝗱', role: 'NeoPhyte', specialization: 'Beware of me', image: deaddroid},
   ];
 </script>
 
