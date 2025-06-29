@@ -1,13 +1,10 @@
 <script>
   import adithg17Image from '../assets/adithg17.jpg';
   import ayushchImage from '../assets/ayushch.png';
-  import br3ak3rImage from '../assets/br3ak3r.jpg';
   import cr4zyDr34mImage from '../assets/cr4zy_dr34m.png';
   import k3rn3lbr3ach3rImage from '../assets/k3rn3lbr3ach3r.jpg';
   import kaiikImage from '../assets/kaiik.jpeg';
-  import spxmareerhsImage from '../assets/spxmareerhs.jpeg';
   import ilenaakImage from '../assets/ilenaak.png';
-  import deaddroid from '../assets/deaddroid.jpg';
   
   // Team structure organized hierarchically
   const leadership = [
