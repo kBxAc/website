@@ -21,12 +21,9 @@
   
   const newMembers = [
     { name: 'kaii-k', role: 'NeoPhyte', specialization: 'Inactivity', image: kaiikImage },
-    { name: 'BR3AK3R', role: 'NeoPhyte', specialization: 'GUI Lover', image: br3ak3rImage },
-    { name: 'SpXmaReerhS', role: 'NeoPhyte', specialization: 'Not sure if he exists', image: spxmareerhsImage },
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
     { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
     { name: 'Akash.R', role: 'NeoPhyte', specialization: 'Chennai anna'},
-    { name: '𝗗𝗲𝗮𝗱-𝗗𝗿𝗼𝗶𝗱', role: 'NeoPhyte', specialization: 'Beware of me', image: deaddroid},
   ];
 </script>
 
