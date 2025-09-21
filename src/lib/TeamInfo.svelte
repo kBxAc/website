@@ -20,7 +20,7 @@
     { name: 'kaii-k', role: 'NeoPhyte', specialization: 'Inactivity', image: kaiikImage },
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
     { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
-    { name: '$hellGh05t3r', role: 'NeoPhyte', specialization: 'A shell whispering to the void through QWERTY, hoping the soul replies!'},
+    { name: '$hellGh05t3r', role: 'NeoPhyte', specialization: 'A shell calls, the void listens (tf 🥀)'},
   ];
 </script>
 
