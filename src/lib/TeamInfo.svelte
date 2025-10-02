@@ -6,6 +6,7 @@
   import kaiikImage from '../assets/kaiik.jpeg';
   import ilenaakImage from '../assets/ilenaak.png';
   import shellghosterImage from '../assets/shellghoster.png';
+  import R0z4r1y0Image from '../assets/R0z4r1y0.jpeg';
   
   // Team structure organized hierarchically
   const leadership = [
@@ -22,6 +23,7 @@
     { name: 'ilenaak', role: 'NeoPhyte', specialization: 'He will tell soon', image: ilenaakImage },
     { name: 'Cr4zy_dr34m', role: 'NeoPhyte', specialization: 'Content Manager', image: cr4zyDr34mImage },
     { name: '$hellGh05t3r', role: 'NeoPhyte', specialization: 'A shell calls, the void listens (tf 🥀)', image: shellghosterImage},
+    { name: 'R0z4r1y0', role: 'NeoPhyte', specialization: 'Hunting flags, chasing truth', image: R0z4r1y0Image},
   ];
 </script>
 
