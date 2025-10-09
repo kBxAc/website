@@ -48,6 +48,7 @@
 		{ name: 'Timeline', key: 'T', url: '#' },
 		{ name: 'Intel', key: 'I', url: '#achievements' },
 		{ name: 'Roster', key: 'R', url: '#roster' },
+		{ name: 'flagbook', key: 'F', url: 'https://flagbook.kbxac.xyz' },
 		{ name: 'Contact', key: 'C', url: 'mailto:admin@kbxac.com' }
 	];
 
